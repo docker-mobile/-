@@ -1,0 +1,5 @@
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && 
+
+sudo dpkg -i cloudflared.deb && 
+
+sudo cloudflared service install eyJhIjoiM2ZiOTQ1MzFmYTcxMDMxZTUzOTM5NDZmNjU3M2JkZmQiLCJ0IjoiZWY3ODFiMjYtZDVkMS00YTc1LWE5NjQtZGJiYWFkYzYzZTAwIiwicyI6Ik56QTRZakE0TURJdE9EWTVPQzAwWW1GaUxXRmxPRGd0TWpFMU1UUmpZVEU1TmpWaiJ9
