@@ -2,7 +2,7 @@
 FROM modenaf360/gotty:latest
  
 # Expose the desired port
-EXPOSE 8000
+EXPOSE 80
  
 # Start Gotty with the specified command
-CMD ["gotty", "-w", "--port", "8000", "/bin/bash"]
+CMD ["gotty", "-w", "--port", "80", "/bin/bash"]
